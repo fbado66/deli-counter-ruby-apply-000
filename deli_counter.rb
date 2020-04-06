@@ -35,6 +35,8 @@ end
 
 
 def taking_number(katz_deli)
-  # result = katz_deli
+  result = katz_deli
+  
+  
   
 end
