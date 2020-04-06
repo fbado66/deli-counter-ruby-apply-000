@@ -33,10 +33,9 @@ def now_serving(katz_deli)
 end
 
 
-
+ result = 1
 def taking_number(katz_deli)
-  result = katz_deli
-  
-  
-  
+  $result = $result + 1
+  puts "You are number #{$result}"
+  katz_deli.push($result)
 end
